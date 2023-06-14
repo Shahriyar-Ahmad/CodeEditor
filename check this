@@ -1,0 +1,17 @@
+<!-- Paste this in Html Box -->
+<button onclick="ChangeColor(this)">Click Me</button>
+<!-- Paste this in CSS Box -->
+button{
+    color: white;
+    background: black;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 200px;
+    }
+    <!-- Paste this in CSS Box -->
+    function ChangeColor(s){
+        s.style.background = "white";
+        s.style.color = "black";
+        }
+<!-- And verfied it run corect? -->
